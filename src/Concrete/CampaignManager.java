@@ -1,8 +1,8 @@
 package Concrete;
-import Abstract.ICampaignService;
+import Abstracts.CampaignService;
 import Entities.Campaign;
 
-public class CampaignManager implements ICampaignService{
+public class CampaignManager implements CampaignService{
 
 	@Override
 	public void add(Campaign campaign) {

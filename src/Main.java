@@ -1,5 +1,5 @@
 import java.rmi.RemoteException;
-import Abstract.IGamerService;
+import Abstracts.GamerService;
 import Adapters.MernisServiceAdapter;
 import Concrete.GameManager;
 import Concrete.GamerManager;

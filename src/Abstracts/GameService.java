@@ -1,7 +1,7 @@
-package Abstract;
+package Abstracts;
 import Entities.Game;
 
-public interface IGameService {
+public interface GameService {
 	
 	void add(Game game);
 	void update(Game game);

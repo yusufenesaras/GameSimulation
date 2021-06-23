@@ -1,10 +1,10 @@
 package Concrete;
 
-import Abstract.IGamerService;
+import Abstracts.GamerService;
 import Adapters.GamerValidationService;
 import Entities.Gamer;
 
-public class GamerManager implements IGamerService{
+public class GamerManager implements GamerService{
 
 	private GamerValidationService gamerValidationService;
 	

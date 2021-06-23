@@ -1,8 +1,8 @@
 package Entities;
 
-import Abstract.IEntity;
+import Abstracts.Entity;
 
-public class Sale implements IEntity{
+public class Sale implements Entity{
 	
 	int id;
 	String gameName;

@@ -1,12 +1,12 @@
 package Concrete;
 
-import Abstract.ISaleService;
+import Abstracts.SaleService;
 import Entities.Campaign;
 import Entities.Game;
 import Entities.Gamer;
 import Entities.Sale;
 
-public class SaleManager implements ISaleService{
+public class SaleManager implements SaleService{
 
 	@Override
 	public void getId(Sale sale) {

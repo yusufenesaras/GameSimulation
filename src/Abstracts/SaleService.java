@@ -1,10 +1,10 @@
-package Abstract;
+package Abstracts;
 import Entities.Campaign;
 import Entities.Game;
 import Entities.Gamer;
 import Entities.Sale;
 
-public interface ISaleService {
+public interface SaleService {
 	
 	void getId(Sale sale);
 	void sale(Gamer gamer,Game game);

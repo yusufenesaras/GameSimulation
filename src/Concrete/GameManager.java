@@ -1,9 +1,9 @@
 package Concrete;
 
-import Abstract.IGameService;
+import Abstracts.GameService;
 import Entities.Game;
 
-public class GameManager implements IGameService {
+public class GameManager implements GameService {
 
 	@Override
 	public void add(Game game) {

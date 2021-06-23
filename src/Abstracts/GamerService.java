@@ -1,7 +1,7 @@
-package Abstract;
+package Abstracts;
 import Entities.Gamer;
 
-public interface IGamerService {
+public interface GamerService {
 	
 	void add(Gamer gamer);
     void update(Gamer gamer);

@@ -1,8 +1,8 @@
 package Entities;
 
-import Abstract.IEntity;
+import Abstracts.Entity;
 
-public class Campaign implements IEntity{
+public class Campaign implements Entity{
 	
 	int id;
 	String campaignName;
